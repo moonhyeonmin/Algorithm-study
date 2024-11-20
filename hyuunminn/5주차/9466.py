@@ -10,7 +10,7 @@ def dfs(v):
     if visited[number]:
         if number in cycle:
             result += cycle[cycle.index(number):]
-            # print(result)
+            print(result)
         return
     else:
         dfs(number)
